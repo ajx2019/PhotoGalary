@@ -1,0 +1,26 @@
+<ion-header color="success">
+  <ion-toolbar color="primary">
+    <ion-title text-center >
+      PhotoGalary
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding >
+
+  <h3 text-center>CS430 Project</h3>
+    <h3 text-center>Instructor:</h3>
+      <h3 text-center>Dr. Evelyn Simpson</h3>
+
+  <img [src]="imagePath">
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+  <ion-button fill="clear" expand="full" color="light" (click)="takePic()">
+    <ion-icon name="camera" slot="start"></ion-icon>
+    Take Photo
+  </ion-button>
+</ion-toolbar>
+</ion-footer>
